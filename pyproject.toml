@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "store-api"
+version = "0.1.0"
+description = ""
+authors = ["Cristhian Silva <devcrisbrito@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.75.0"
+uvicorn = "^0.15.0"
+pymongo = "^4.0.1"
+pydantic = "^1.10.0"
+pytest = "^7.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
